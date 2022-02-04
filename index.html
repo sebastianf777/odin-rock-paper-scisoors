@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="player_panel">
+        <h1>You:</h1>
+        <div id="playerSelection_panel_id" class="playerSelection_panel">
+        
+                <div id='rock_player' class="option_class">Rock</div>
+                <div id="paper_player" class="option_class">Paper</div>
+                <div id='scissors_player' class="option_class">Scissor</div>
+        </div>
+    </section>
+    <section class="computer_panel">
+        <h2>Computer:</h2>
+        <div class="computer_panel">
+            <div id='computer_player' class="computer_option_class"></div>
+            
+        </div>
+    </section>
+    <section class="winner_panel">
+        <h3>Winner:</h3>
+        <div class="container">
+            <div id='winner_player' class="winner_option_class"></div>
+            <div id='start_button' class="start_option_class start">Start</div>
+        </div>
+    </section>
     <script src="/js/main.js"></script>
 </body>
 </html>

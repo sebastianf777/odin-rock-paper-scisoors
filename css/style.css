@@ -1,0 +1,54 @@
+.player_panel{
+    margin-top: 20px;
+}
+h1, h2, h3{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.playerSelection_panel{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+ .winner_panel, .computer_panel{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: column;
+}
+.computer_panel .computer_option_class{
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.option_class, .computer_option_class, .winner_option_class, .start_option_class{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 20px 20px 0;
+    border: red solid 2px;
+    cursor: pointer;
+    background-color: white;
+    text-transform: uppercase;
+}
+.option_class.active{
+    background-color: red;
+}
+.start{
+    color: red;
+    text-transform: uppercase;
+    background-color: rgb(38, 190, 228);
+}
+.start:hover{
+    background-color: blue;
+}
