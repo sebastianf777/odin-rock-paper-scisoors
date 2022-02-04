@@ -29,7 +29,7 @@ h1, h2, h3{
     flex-direction: row;
     justify-content: center;
 }
-.option_class, .computer_option_class, .winner_option_class, .start_option_class{
+.option_class, .computer_option_class, .winner_option_class, .start_option_class, .round_option_class{
     width: 200px;
     height: 200px;
     justify-content: center;
