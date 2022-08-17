@@ -128,6 +128,7 @@ function playRound() {
 
   } else {
     // game_started = false;
+    
     if (round_number == 0) {
     winner_player.textContent = "Choose First";
       
